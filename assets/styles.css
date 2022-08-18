@@ -1,0 +1,91 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ffffff #222222;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #072b30;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px none #ffffff;
+  }
+body{
+  font-family: 'Corben', cursive;
+  width: 100%;
+  height: 500vh;
+  background-color: #072b30;
+  margin: 0px;
+  -youbkit-touch-callout: none; /* iOS Safari */
+    -youbkit-user-select: none;   /* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;        /* IE 10+ and Edge */
+    user-select: none;           
+                         
+}
+.txtt{
+font-family: 'Shrikhand', cursive;
+  position: absolute;
+  width: 683.67px;
+  height: 88.03px;
+  left: 154px;
+  top: 250.11px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 41px;
+  letter-spacing: 0.275em;
+  padding-top:30px;
+  color:#c2b298;
+}
+.hi{
+font-family: 'Shrikhand', cursive;
+position: absolute;
+width: 84.17px;
+height: 84.17px;
+left: 154px;
+top: 127px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 84px;
+letter-spacing: 0.275em;
+
+color:#c2b298;
+}
+
+.a2{
+position: absolute;
+      top: 0;
+      left: 0;
+
+}
+.a1{
+  position: absolute;
+      top: 0;
+      left: -10;
+}
+.a3{
+  position:absolute;
+  display: block;
+  margin-left:1000px;
+  margin-top:170px;
+}
+.intro{
+  position: absolute;
+  font-family: 'Corben', cursive;
+  color:#c2b298;
+  padding-top:400px;
+  padding-left:154px;
+  font-size: 23px;
+}
